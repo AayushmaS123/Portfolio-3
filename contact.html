@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Aayu Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Aayushma</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="project.html">Project</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="report.html">Report</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">☰</button>
+      <button class="dark-toggle" id="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="intro fade-in contact-section" style="max-width: 600px; margin: 0 auto;">
+      <h1>Contact Me</h1>
+      <p>Feel free to reach out via the form below.</p>
+
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aayu</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
